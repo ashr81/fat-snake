@@ -1,5 +1,6 @@
 
 #game-container{
+    display: flex;
     top: 50px;
     left: 25%;
     position: absolute;
@@ -10,13 +11,11 @@
 #snake-container{
     width: 20px;
     height: 20px;
-    background-color: red;
     position: relative;
 }
 
 #food-container{
     width: 20px;
     height: 20px;
-    background-color: blue;
     position: relative;
 }
